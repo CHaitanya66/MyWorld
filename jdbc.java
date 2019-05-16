@@ -12,7 +12,7 @@ Statement stm =con.createStatement();
 ResultSet rs=stm.executeQuery("select*from employee15");
 while(rs.next()) {
 	System. out.println(rs.getString(1)+"\t"+rs.getString(2)+"\t"+rs.getString(3)+"\t"+rs.getInt(4));
-}//end of while
+}
 con.close();
 
 	}
